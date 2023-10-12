@@ -81,15 +81,23 @@ header {
 
 .nav-bar__primary__1 {
   border-bottom: 3px solid black;
+  list-style: none;
+}
+
+.nav-bar__primary {
+  list-style: none;
+}
+
+.nav-bar__primary__premium {
+  list-style: none;
 }
 
 .nav-bar__primary-items {
   display: flex;
-  list-style: none;
   flex-direction: column;
   padding: 0;
   align-items: center;
-  margin: 11px 14px 7px 14px;
+  margin: 11px 13px 7px 13px;
 }
 
 .nav-bar__primary a,
@@ -112,7 +120,7 @@ header {
   color: grey;
 }
 
-.nav-bar__primary:hover ul li {
+.nav-bar__primary:hover a p {
   color: black;
 }
 
@@ -690,14 +698,12 @@ header {
   height: 13px;
 }
 
-.right-content__linkedin-news__news-content {
+.right-content__linkedin-news__news {
   display: flex;
   justify-content: flex-start;
-}
-
-.right-content__linkedin-news__news-content ul {
+  flex-direction: column;
   padding: 0;
-  margin: 0;
+  list-style: none;
 }
 
 .right-content__linkedin-news__news-content a {
@@ -710,19 +716,19 @@ header {
   font-weight: bolder;
   margin-bottom: 2px;
   margin-top: 2px;
-  margin-left: 23px;
+  padding-left: 10px;
 }
 
 .right-content__linkedin-news__news-content__span {
   color: grey;
-  margin-left: 24px;
+  padding-left: 20px;
 }
 
 .spacer_2 {
   padding-top: 10px;
 }
 
-.right-content__linkedin-news__news-content:hover {
+.right-content__linkedin-news__news li:hover {
   background-color: rgb(232, 229, 229);
 }
 
