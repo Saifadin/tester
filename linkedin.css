@@ -71,6 +71,11 @@ header {
 
 .search-bar__input:focus {
   width: 333px;
+  outline: none;
+}
+
+.search-bar:focus-within {
+  outline: 2px solid rgba(0, 0, 255, 0.646);
 }
 
 .nav-bar__right {
@@ -144,6 +149,11 @@ header {
 
 .primary-item__premium {
   color: rgb(168, 124, 4);
+}
+
+.primary-item__premium:hover,
+.nav-bar__primary__premium a {
+  color: rgb(151, 140, 110);
 }
 
 .main {
@@ -580,7 +590,7 @@ header {
 .middle-content__post__text-section p {
   font-size: 1.2rem;
   line-height: 1.5;
-  word-spacing: 1.5px;
+  letter-spacing: 0.3px;
 }
 
 .middle-content__post__picture-section {
@@ -597,7 +607,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: left;
-  border-bottom: 1px solid #cecece;
   font-size: 1.1rem;
   color: gray;
 }
@@ -611,6 +620,13 @@ header {
   width: 12px;
   height: 12px;
   margin: 10px 5px 10px 20px;
+}
+
+.dividing-line {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  border-top: 1px solid #cecece;
 }
 
 .middle-content__post__reactions {
@@ -672,8 +688,7 @@ header {
 }
 
 .right-content__linkedin-news,
-.right-content__add-banner,
-.right-content__linkedin-footer {
+.right-content__add-banner {
   background-color: whitesmoke;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -741,6 +756,42 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.right-content__linkedin-footer__link-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 20px 10px 20px;
+}
+
+.right-content__linkedin-footer__link-list__links {
+  margin: 0 10px 10px 10px;
+}
+
+.right-content__linkedin-footer__link-list__links a {
+  color: grey;
+  text-decoration: none;
+}
+
+.right-content__linkedin-footer__link-list__links a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.646);
+}
+
+.right-content__linkedin-footer__coroperate-identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-content__linkedin-footer__coroperate-identity__logo {
+  width: 60px;
+  height: 14px;
+  object-fit: cover;
+  margin-right: 5px;
 }
 
 .chatbar_trigger {
