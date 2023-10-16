@@ -16,11 +16,18 @@ p {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-top: 55px;
 }
 
 header {
   flex: 0;
   width: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-bottom: 1px solid #cecece;
 }
 
 .nav-bar {
@@ -499,6 +506,30 @@ header {
   margin-right: 7px;
 }
 
+.middle-content__wrapper {
+  display: flex;
+  margin: 0 0 10px 0;
+}
+
+.middle-content__wrapper__sort-border {
+  padding-right: 300px;
+  margin-left: 0px;
+  border: none;
+  border-top: 1px solid #cecece;
+}
+
+.middle-content__wrapper__display-selection {
+  padding-right: 5px;
+}
+
+.display-selection__design-1 {
+  color: grey;
+}
+
+.display-selection__design-2 {
+  font-weight: bolder;
+}
+
 .middle-content__general-post-layout {
   background-color: whitesmoke;
   border-radius: 10px;
@@ -721,6 +752,11 @@ header {
   list-style: none;
 }
 
+.right-content__linkedin-news__news-content {
+  padding-bottom: 10px;
+  padding-top: 2px;
+}
+
 .right-content__linkedin-news__news-content a {
   text-decoration: none;
   color: black;
@@ -729,18 +765,18 @@ header {
 .right-content__linkedin-news__news-content__li {
   font-size: 1.2rem;
   font-weight: bolder;
-  margin-bottom: 2px;
-  margin-top: 2px;
+  margin-top: 3px;
   padding-left: 10px;
+}
+
+.li-dot {
+  font-size: 1.4rem;
+  margin: 5px 10px 0 0;
 }
 
 .right-content__linkedin-news__news-content__span {
   color: grey;
-  padding-left: 20px;
-}
-
-.spacer_2 {
-  padding-top: 10px;
+  padding-left: 31px;
 }
 
 .right-content__linkedin-news__news li:hover {
@@ -756,6 +792,85 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.right-content__add-banner__advertising-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 10px 0 0;
+}
+
+.right-content__add-banner__advertising-label__three-points-menu {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.right-content__add-banner__advertising-label__header {
+  margin: 10px 20px 10px 20px;
+  color: grey;
+  text-align: center;
+}
+
+.right-content__add-banner__advertising-label__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-content__add-banner__advertising-label__images__profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.right-content__add-banner__advertising-label__images__corporate-logo {
+  width: 47px;
+  height: 55px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.right-content__add-banner__advertising-label__invitation {
+  font-size: 1.2rem;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.right-content__add-banner__advertising-label__invitation-company {
+  font-weight: bolder;
+}
+
+.right-content__add-banner__advertising-label__follow-button__center {
+  display: flex;
+  justify-content: center;
+}
+
+.right-content__add-banner__advertising-label__follow-button {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px 0;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.646);
+  border: 1px solid rgba(0, 0, 255, 0.646);
+  border-radius: 16px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.right-content__add-banner__advertising-label__follow-button:hover {
+  background-color: rgba(168, 183, 251, 0.434);
+  border: 1.5px solid rgba(0, 0, 255, 0.646);
+  border-radius: 16px;
+  margin-bottom: 19px;
 }
 
 .right-content__linkedin-footer__link-list {
