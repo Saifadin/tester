@@ -12,24 +12,62 @@
         <!--Navigationbar-->
         <div class="nav-bar">
           <div class="nav-bar__left">
-            <div class="logo"></div>
+              <div><a href="https://www.linkedin.com/feed/"><img class="logo" src="./images/icons/LinkedIn_icon.svg" alt="LinkedIn Icon blau"></a></div>
             <div class="search-bar">
-              <span class="search-bar__icon">&#128269;</span>
+              <img class="search-bar__icon" src="./images/icons/search.svg" alt="Lupe Icon">
               <input placeholder="Suche" class="search-bar__input" />
             </div>
           </div>
-          <div class="nav-bar__right">
-            <ul class="nav-bar__primary-items">
-              <li class="primary-item">Start</li>
-              <li class="primary-item">Ihr Netzwerk</li>
-              <li class="primary-item">Jobs</li>
-              <li class="primary-item">Nachrichten</li>
-              <li class="primary-item">Mitteilungen</li>
-              <li class="primary-item">Sie</li>
-              <li class="primary-item">Produkte</li>
-              <li class="primary-item">Premium gratis testen</li>
-            </ul>
-          </div>
+          <ul class="nav-bar__right">
+            <li class="nav-bar__primary__1">
+              <a href="https://www.linkedin.com/feed/" class="nav-bar__primary-items">
+                <img class="nav-bar__primary-items__icons" src="./images/icons/house-chimney.svg" alt="Haus Icon">
+                <p class="primary-item_1">Start</p>
+              </a>
+            </li>
+            <li class="nav-bar__primary">
+              <a href="https://www.linkedin.com/mynetwork/" class="nav-bar__primary-items"> 
+                <img class="nav-bar__primary-items__icons" src="./images/icons/users.svg" alt="Zwei Personen Icon">
+                <p class="primary-item">Ihr Netzwerk</p>
+              </a>
+            </li>
+            <li class="nav-bar__primary">
+              <a href="https://www.linkedin.com/jobs/" class="nav-bar__primary-items">
+                <img class="nav-bar__primary-items__icons" src="./images/icons/suitcase-alt.svg" alt="Aktentasche Icon">
+                <p class="primary-item">Jobs</p>
+              </a>
+            </li>
+            <li class="nav-bar__primary">
+              <a href="https://www.linkedin.com/messaging/thread/2-NmI4NDRlM2YtOWE4NC00MjFjLWI2NmQtMDBlYjY4NmY3MjY5XzAxMg==/" class="nav-bar__primary-items">
+                <img class="nav-bar__primary-items__icons" src="./images/icons/comment-alt-dots.svg" alt="Sprechblase mit drei Punkten Icon">
+                <p class="primary-item">Nachrichten</p>
+              </a>
+            </li>
+            <li class="nav-bar__primary">
+              <a href="https://www.linkedin.com/notifications/?filter=all" class="nav-bar__primary-items">
+                <img class="nav-bar__primary-items__icons" src="./images/icons/cowbell.svg" alt="Glocke Icon">
+                <p class="primary-item">Mitteilungen</p>
+              </a>
+            </li>
+            <li class="nav-bar__primary">
+              <div class="nav-bar__primary-items">
+                <img class="nav-bar__primary-items__profile-picture" src="./images/profile/DSC_2146.JPG" alt="Profilbild Johanna Haerdter">
+                <p class="primary-item">Sie</p>
+              </div>
+            </li>
+            <div class="spacer_1"></div>
+            <li class="nav-bar__primary">
+              <div class="nav-bar__primary-items">
+                <img class="nav-bar__primary-items__icons" src="./images/icons/grip-horizontal.svg">
+                <p class="primary-item">Produkte</p>
+              </div>
+            </li>
+            <li class="nav-bar__primary__premium">
+              <a href="https://www.linkedin.com/premium/survey/?destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F&referenceId=%2BUwGe1tjRmWzIFg7rljXkA%3D%3D&upsellOrderOrigin=premium_nav_upsell_text" class="nav-bar__primary-items">
+                <p class="primary-item__premium">Premium gratis testen</p>
+              </a>
+            </li>
+          </ul>
         </div>
       </header>
       <main class="main">
@@ -279,7 +317,10 @@
                 </div>
               </div>
             </div>
-            <div class="middle-content__wrapper">b2</div>
+            <div class="middle-content__wrapper">
+              <hr class="middle-content__wrapper__sort-border">
+              <div class="middle-content__wrapper__display-selection"><span class="display-selection__design-1">Feed-Ansicht auswählen: </span><span class="display-selection__design-2">Relevanteste zuerst</span></div>
+            </div>
             <div class="middle-content__infinte-scroll">
               <div class="middle-content__general-post-layout">
                 <div class="middle-content__community-reaction">
@@ -293,9 +334,7 @@
                   </div>
                   <div class="middle-content__community-reaction__profile-name">
                     <a href="https://www.linkedin.com/in/aldoaiss/"
-                      >Osamah Aldoaiss
-                      <span class="span-post-community-reaction"> gefällt das</span></a
-                    >
+                      >Osamah Aldoaiss<span class="span-post-community-reaction"></a> gefällt das</span>
                   </div>
                 </div>
                 <div class="middle-content__header">
@@ -310,9 +349,9 @@
                   <div>
                     <div class="middle-content__header__profile-name">
                       <a href="https://www.linkedin.com/in/johanna-haerdter/"
-                        >Johanna Härdter
-                        <span class="span-post-header">• 2.</span></a
-                      >
+                        >Johanna Härdter</a
+                        >
+                        <span class="span-post-header">• 2.</span>
                     </div>
                     <div class="middle-content__header__further-information">
                       <a href="https://www.linkedin.com/in/johanna-haerdter/"
@@ -368,9 +407,10 @@
                     />42
                   </a>
                 </div>
+                <hr class="dividing-line"></hr>
                 <div>
                   <ul class="middle-content__post__reactions">
-                    <li class="personal-icon"><a href="https://www.linkedin.com/in/johanna-haerdter/"><img class="middle-content__post__reactions__profile-picture" alt="Profilbild von Johanna Haerdter" src="./images/profile/DSC_2146.JPG"></a></li>
+                    <li class="personal-icon"><img class="middle-content__post__reactions__profile-picture" alt="Profilbild von Johanna Haerdter" src="./images/profile/DSC_2146.JPG"></li>
                     <li class="reaction"><img class="middle-content__post__reactions__icons" alt="thumbs up icon" src="./images/icons/social-network.svg">Gefällt mir</li>
                     <li class="reaction"><img class="middle-content__post__reactions__icons" alt="comment icon" src="./images/icons/comment-alt.svg">Kommentar</li>
                     <li class="reaction"><img class="middle-content__post__reactions__icons" alt="share icon" src="./images/icons/share-square.svg">Teilen</li>
@@ -393,8 +433,8 @@
                   <div class="middle-content__community-reaction__profile-name">
                     <a href="https://www.linkedin.com/in/johanna-haerdter/"
                       >Johanna Härdter
-                      <span class="span-post-community-reaction"> unterstützt dies</span></a
-                    >
+                      <span class="span-post-community-reaction"></a
+                        > unterstützt dies</span>
                   </div>
                 </div>
                 <div class="middle-content__header">
@@ -437,13 +477,7 @@
                 <div class="middle-content__post__video-section">
                   <video max-width="820" height="600" controls>
                     <source src="./video/2bfdb593-4aad-4234-9a25-86e07010885b.MP4" type="video/mp4">
-                  
-                  </video>                  
-                  <!--<a
-                    class="middle-content__post__picture-section"
-                    alt="YouTube Video of Imagine Dragons Thunder"
-                    href="https://www.youtube.com/watch?v=fKopy74weus"
-                  ></a>-->
+                   </video> 
                 </div>
                 <div>
                   <a class="middle-content__post__picture-section__likes">
@@ -454,9 +488,10 @@
                     />105
                   </a>
                 </div>
+                <hr class="dividing-line"></hr>
                 <div>
                   <ul class="middle-content__post__reactions">
-                    <li class="personal-icon"><a href="https://www.linkedin.com/in/johanna-haerdter/"><img class="middle-content__post__reactions__profile-picture" alt="Profilbild von Johanna Haerdter" src="./images/profile/DSC_2146.JPG"></a></li>
+                    <li class="personal-icon"><img class="middle-content__post__reactions__profile-picture" alt="Profilbild von Johanna Haerdter" src="./images/profile/DSC_2146.JPG"></li>
                     <li class="reaction"><img class="middle-content__post__reactions__icons" alt="thumbs up icon" src="./images/icons/social-network.svg">Gefällt mir</li>
                     <li class="reaction"><img class="middle-content__post__reactions__icons" alt="comment icon" src="./images/icons/comment-alt.svg">Kommentar</li>
                     <li class="reaction"><img class="middle-content__post__reactions__icons" alt="share icon" src="./images/icons/share-square.svg">Teilen</li>
@@ -466,13 +501,64 @@
                   <p class="middle-content__invitation-like-comment">Gehören Sie zu den ersten, die dies kommentieren</p>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
           <!--Right Content-->
           <div class="right-content">
-            <div class="right-content__linkedin-news">c1</div>
-            <section class="right-content__add-banner">c2</section>
-            <footer class="right-content__linkedin-footer">c3</footer>
+            <div class="right-content__linkedin-news">
+              <div class="right-content__linkedin-news__header">
+                <p>LinkedIn News</p>
+                <img src="./images/icons/info.svg" alt="Informations-icon" class="information-icon">
+              </div>
+              <ul class="right-content__linkedin-news__news">
+                <li class="right-content__linkedin-news__news-content">
+                  <a href="https://www.linkedin.com/news/story/wie-politisch-muss-die-wirtschaft-sein-5795788/"><p class="right-content__linkedin-news__news-content__li"><span class="li-dot">•</span> Wie politisch muss die Wirtschaft s...</p><span class="right-content__linkedin-news__news-content__span">vor 2 Tagen • 153 Leser</span></a>
+                </li>
+                <li class="right-content__linkedin-news__news-content">
+                  <a href="https://www.linkedin.com/news/story/fahren-e-autos-bald-mit-salz-akkus-5523833/"><p class="right-content__linkedin-news__news-content__li"><span class="li-dot">•</span> Fahren E-Autos bald mit Salz-Akku?</p><span class="right-content__linkedin-news__news-content__span">vor 1 Tagen • 285 Leser</span></a>
+                </li>
+                <li class="right-content__linkedin-news__news-content">
+                  <a href="https://www.linkedin.com/news/story/wie-uns-vernetztes-denken-weiter-bringt-5791636/"><p class="right-content__linkedin-news__news-content__li"><span class="li-dot">•</span>  Wie uns vernetztes Denken weiter...</p><span class="right-content__linkedin-news__news-content__span">vor 15 Std.</span></a>
+                </li>
+                <li class="right-content__linkedin-news__news-content">
+                  <a href="https://www.linkedin.com/news/story/wenn-nachrichten-bilder-belastend-werden-5516169/"><p class="right-content__linkedin-news__news-content__li"><span class="li-dot">•</span> Wenn Nachrichten-Bilder belasten...</p><span class="right-content__linkedin-news__news-content__span">vor 1 Tagen • 219 Leser</span></a>
+                </li>
+                <li class="right-content__linkedin-news__news-content">
+                  <a href="https://www.linkedin.com/news/story/braucht-deutschland-chipfabriken-5523841/"><p class="right-content__linkedin-news__news-content__li"><span class="li-dot">•</span> Braucht Deutschland Chipfabriken?</p><span class="right-content__linkedin-news__news-content__span">vor 15 Std.</span></a>
+                </li>
+              </ul>
+            </div>
+            <section class="right-content__add-banner">
+              <div class="right-content__add-banner__advertising-label">
+                <p>Anzeige</p>
+                <img class="right-content__add-banner__advertising-label__three-points-menu" src="./images/icons/menu-dots.svg">
+              </div>
+              <p class="right-content__add-banner__advertising-label__header">Erhalten Sie aktuelle Job-Updates und Branchennews</p>
+              <div class="right-content__add-banner__advertising-label__images">
+                <img class="right-content__add-banner__advertising-label__images__profile-picture" src="./images/profile/DSC_2146.JPG">
+                <a href="https://www.linkedin.com/company/apple/"><img class="right-content__add-banner__advertising-label__images__corporate-logo" src="./images/icons/Apple_logo_dark_grey.svg.png"></a>
+              </div>
+              <p class="right-content__add-banner__advertising-label__invitation">Johanna, entdecken Sie Karrieremöglichkeiten bei <span class="right-content__add-banner__advertising-label__invitation-company">Apple</span></p>
+              <div class="right-content__add-banner__advertising-label__follow-button__center"><a class="right-content__add-banner__advertising-label__follow-button" href="https://www.linkedin.com/company/apple/">Folgen</a></div>
+            </section>
+            <footer class="right-content__linkedin-footer">
+              <ul class="right-content__linkedin-footer__link-list">
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="https://about.linkedin.com/de-de" target="_blank">Info</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="https://de.linkedin.com/accessibility?" target="_blank">Barrierefreiheit</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="https://www.linkedin.com//help/linkedin?trk=footer_d_flagship3_feed" target="_blank">Hilfebereich</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="https://www.linkedin.com/legal/impressum" target="_blank">Impressum</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="">Datenschutz & AGB</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="" target="_blank">Anzeigenauswahl</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="" target="_blank">Marketing</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="">Business-Service</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="">LinkedIn App herunterladen</a></li>
+                <li class="right-content__linkedin-footer__link-list__links"><a class="link-list__links" href="">Mehr</a></li>
+              </ul>
+              <div class="right-content__linkedin-footer__coroperate-identity">
+                <img class="right-content__linkedin-footer__coroperate-identity__logo" src="./images/icons/LinkedIn_Logo.svg">
+                <span>LinkedIn Corporation © 2023</span>
+              </div>
+            </footer>
           </div>
         </div>
         <!--Chatbar-->
